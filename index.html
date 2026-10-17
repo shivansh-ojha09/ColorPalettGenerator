@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101426">
+    <title>Color Palette Studio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="app-shell">
+        <header class="page-header">
+            <div class="heading-copy">
+                <p class="eyebrow">COLOR PALETTE STUDIO</p>
+                <h1>Find your next<br><span>favorite colors.</span></h1>
+                <p class="subtitle">A fresh little palette for whatever you’re dreaming up.</p>
+            </div>
+            <button class="generate-btn" id="generate-btn" type="button">
+                <span class="button-icon" aria-hidden="true">↻</span>
+                Generate palette
+            </button>
+        </header>
+
+        <section class="palette-section" aria-label="Your color palette">
+            <div class="section-heading">
+                <h2>Your palette</h2>
+                <span class="color-count">05 COLORS</span>
+            </div>
+            <div class="palette-container">
+                <article class="color-box">
+                    <div class="color" style="background-color: #E1F5FE"></div>
+                    <div class="color-info">
+                        <span class="hex-value">#E1F5FE</span>
+                        <button class="copy-btn" type="button" aria-label="Copy #E1F5FE">Copy</button>
+                    </div>
+                </article>
+                <article class="color-box">
+                    <div class="color" style="background-color: #B3E5FC"></div>
+                    <div class="color-info">
+                        <span class="hex-value">#B3E5FC</span>
+                        <button class="copy-btn" type="button" aria-label="Copy #B3E5FC">Copy</button>
+                    </div>
+                </article>
+                <article class="color-box">
+                    <div class="color" style="background-color: #81D4FA"></div>
+                    <div class="color-info">
+                        <span class="hex-value">#81D4FA</span>
+                        <button class="copy-btn" type="button" aria-label="Copy #81D4FA">Copy</button>
+                    </div>
+                </article>
+                <article class="color-box">
+                    <div class="color" style="background-color: #4FC3F7"></div>
+                    <div class="color-info">
+                        <span class="hex-value">#4FC3F7</span>
+                        <button class="copy-btn" type="button" aria-label="Copy #4FC3F7">Copy</button>
+                    </div>
+                </article>
+                <article class="color-box">
+                    <div class="color" style="background-color: #29B6F6"></div>
+                    <div class="color-info">
+                        <span class="hex-value">#29B6F6</span>
+                        <button class="copy-btn" type="button" aria-label="Copy #29B6F6">Copy</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+    </main>
+</body>
+</html>
